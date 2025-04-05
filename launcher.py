@@ -19,7 +19,7 @@ def button_callback():
 button = ctk.CTkButton(frame, text="Launch", command=button_callback)
 button.pack(pady=5)
 
-label = ctk.CTkLabel(frame, text="GitHub=url", font=("Arial", 18))
+label = ctk.CTkLabel(frame, text="GitHub=https://github.com/illia115/PyMonopoly", font=("Arial", 18))
 label.pack(pady=10)
 label = ctk.CTkLabel(frame, text="Discord=https://discord.gg/CRzm7JrR", font=("Arial", 18))
 label.pack(pady=10)
